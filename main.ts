@@ -2,11 +2,11 @@ function show_scoreboard () {
     OLED.clear()
     OLED.writeStringNewLine("player A:" + PA)
     OLED.newLine()
-    OLED.writeStringNewLine("player A:" + PB)
+    OLED.writeStringNewLine("player B:" + PB)
     OLED.newLine()
-    OLED.writeStringNewLine("player A:" + Ties)
+    OLED.writeStringNewLine("Ties:" + Ties)
     OLED.newLine()
-    OLED.writeStringNewLine("player A:" + Rounds)
+    OLED.writeStringNewLine("Rounds:" + Rounds)
 }
 let Rounds = 0
 let Ties = 0
